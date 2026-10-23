@@ -18,7 +18,7 @@ android {
     // Fester Schlüssel, damit Updates einfach drüberinstalliert werden können
     signingConfigs {
         fest {
-            storeFile file('chillzimmer.keystore')
+            storeFile file('../chillzimmer.keystore')
             storePassword 'chillzimmer'
             keyAlias 'chillzimmer'
             keyPassword 'chillzimmer'
