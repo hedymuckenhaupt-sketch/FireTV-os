@@ -37,6 +37,7 @@ class MainActivity : Activity() {
         super.onResume()
         // Zurück im Launcher: Home-Taste wieder auf uns umleiten
         HomeWatcher.allowAmazonHome = false
+        HomeWatcher.onLauncherVisible()
         bridge.rescanIfReady()
     }
 
